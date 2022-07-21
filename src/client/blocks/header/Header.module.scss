@@ -1,0 +1,14 @@
+@import "src/client/styles/colors";
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: red;
+
+  &-social {
+    margin-top: 10px;
+    color: #ffffff;
+  }
+}
